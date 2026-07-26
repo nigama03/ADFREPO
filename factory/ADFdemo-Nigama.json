@@ -1,0 +1,15 @@
+{
+	"name": "ADFdemo-Nigama",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "177a48d3-b9e2-45b8-8657-0c32a94215f3",
+		"tenantId": "0e533065-76eb-4417-af1e-9aa4d50762ab"
+	}
+}
