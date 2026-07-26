@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFdemo-Nigama"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LSOUTPUTBINARY_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"LSadlsgen2_accountKey": {
+			"value": ""
+		},
+		"LSblobtxt_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"LSOUTPUTBINARY_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"LS_CSV_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "LAPTOP-ROHAN\\SQLEXPRESS"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "ADFDATABASE"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LSadlsgen2_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		}
+	}
+}
