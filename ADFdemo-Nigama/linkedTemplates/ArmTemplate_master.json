@@ -31,6 +31,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'LSblobtxt'"
 		},
+		"LS_SqlServerTableLKUP_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LS_SqlServerTableLKUP'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsgen2nigama.dfs.core.windows.net/"
@@ -58,6 +62,18 @@
 		"LSadlsgen2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"LS_SqlServerTableLKUP_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"LS_SqlServerTableLKUP_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "RetailDW_Dev"
+		},
+		"LS_SqlServerTableLKUP_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "sa"
 		},
 		"containerUri": {
 			"type": "string",
@@ -104,6 +120,9 @@
 					"LS_SqlServer_password": {
 						"value": "[parameters('LS_SqlServer_password')]"
 					},
+					"LS_SqlServerTableLKUP_password": {
+						"value": "[parameters('LS_SqlServerTableLKUP_password')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -124,6 +143,15 @@
 					},
 					"LS_SqlServer_properties_typeProperties_userName": {
 						"value": "[parameters('LS_SqlServer_properties_typeProperties_userName')]"
+					},
+					"LS_SqlServerTableLKUP_properties_typeProperties_server": {
+						"value": "[parameters('LS_SqlServerTableLKUP_properties_typeProperties_server')]"
+					},
+					"LS_SqlServerTableLKUP_properties_typeProperties_database": {
+						"value": "[parameters('LS_SqlServerTableLKUP_properties_typeProperties_database')]"
+					},
+					"LS_SqlServerTableLKUP_properties_typeProperties_userName": {
+						"value": "[parameters('LS_SqlServerTableLKUP_properties_typeProperties_userName')]"
 					}
 				}
 			},

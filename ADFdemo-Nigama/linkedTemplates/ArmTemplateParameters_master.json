@@ -23,6 +23,9 @@
 		"LSblobtxt_connectionString": {
 			"value": ""
 		},
+		"LS_SqlServerTableLKUP_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
 		},
@@ -43,6 +46,15 @@
 		},
 		"LSadlsgen2_properties_typeProperties_url": {
 			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"LS_SqlServerTableLKUP_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"LS_SqlServerTableLKUP_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SqlServerTableLKUP_properties_typeProperties_userName": {
+			"value": "sa"
 		},
 		"containerUri": {
 			"value": ""
