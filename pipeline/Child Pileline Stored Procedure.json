@@ -1,0 +1,50 @@
+{
+	"name": "Child Pileline Stored Procedure",
+	"properties": {
+		"activities": [
+			{
+				"name": "Child Pipeline Stored Procedure",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [
+					{
+						"name": "TableSchema"
+					},
+					null
+				],
+				"typeProperties": {
+					"storedProcedureName": {
+						"value": "[dbo].[UpdateWatermark]",
+						"type": "Expression"
+					},
+					"storedProcedureParameters": {
+						"TableName": {
+							"value": "",
+							"type": "String"
+						},
+						"TableSchema": {
+							"value": "",
+							"type": "String"
+						},
+						"WatermarkColumn": {
+							"value": "",
+							"type": "String"
+						}
+					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_ONPREM_SQLSERVER_DEV",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
