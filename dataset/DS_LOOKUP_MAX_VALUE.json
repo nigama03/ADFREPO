@@ -1,8 +1,8 @@
 {
-	"name": "DS_LKUP_MAX_VALUE",
+	"name": "DS_LOOKUP_MAX_VALUE",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "DS_LKUP_MAX_VALUE",
+			"referenceName": "LSPARENTSQLSERVER",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
