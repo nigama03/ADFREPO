@@ -29,7 +29,7 @@
 				}
 			},
 			{
-				"name": "ForEachSqlTable",
+				"name": "ForEachSQLTABLE",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -45,35 +45,29 @@
 						"value": "@activity('LKUP_SQLTB_WATRMRK DW').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
-							"name": "Execute_SQL_Incremental_Pipeline",
+							"name": "EXECSQLINCREMENTAL",
 							"type": "ExecutePipeline",
 							"dependsOn": [],
 							"policy": {
 								"secureInput": false
 							},
+							"userProperties": [],
 							"typeProperties": {
 								"pipeline": {
-									"referenceName": "Child Pipeline Incremental",
+									"referenceName": "CHILD PIPELINE INCREMENTAL",
 									"type": "PipelineReference"
 								},
 								"waitOnCompletion": true,
 								"parameters": {
-									"TableSchema": {
-										"value": "@item().TableScheme",
-										"type": "Expression"
-									},
 									"TableName": {
 										"value": "@item().TableName",
 										"type": "Expression"
 									},
-									"WatermarkColumn": {
-										"value": "@item().WatermarkColumn",
-										"type": "Expression"
-									},
-									"LastLoadValue": {
-										"value": "@item().LastLoadValue",
+									"WaterMarkColumn": {
+										"value": "@item().WaterMarkColumn",
 										"type": "Expression"
 									}
 								}
