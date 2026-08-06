@@ -5,16 +5,43 @@
 		"factoryName": {
 			"value": "ADFdemo-Nigama"
 		},
+		"ADLS SQL PARQUET_accountKey": {
+			"value": ""
+		},
+		"ADLS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"DS ON PREM SERVER_password": {
+			"value": ""
+		},
+		"DS_LKUP_MAX_VALUE_password": {
 			"value": ""
 		},
 		"LSOUTPUTBINARY_accountKey": {
 			"value": ""
 		},
+		"LSPARENTSQLSERVER_password": {
+			"value": ""
+		},
 		"LS_CSV_ADLS_accountKey": {
 			"value": ""
 		},
+		"LS_ONPREM_SQLSERVER_DEV_password": {
+			"value": ""
+		},
+		"LS_PARENT_SQL_DW_password": {
+			"value": ""
+		},
+		"LS_PARENT_SQL_SERVER_password": {
+			"value": ""
+		},
 		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"LS_SqlServerTableLKUP_password": {
 			"value": ""
 		},
 		"LSadlsgen2_accountKey": {
@@ -23,17 +50,74 @@
 		"LSblobtxt_connectionString": {
 			"value": ""
 		},
-		"LS_SqlServerTableLKUP_password": {
-			"value": ""
+		"ADLS SQL PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
 		},
+		"DS ON PREM SERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"DS ON PREM SERVER_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"DS ON PREM SERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"DS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"DS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"DS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
 		"LSOUTPUTBINARY_properties_typeProperties_url": {
 			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
 		},
+		"LSPARENTSQLSERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"LSPARENTSQLSERVER_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LSPARENTSQLSERVER_properties_typeProperties_userName": {
+			"value": "sa"
+		},
 		"LS_CSV_ADLS_properties_typeProperties_url": {
 			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
+		},
+		"LS_ONPREM_SQLSERVER_DEV_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"LS_ONPREM_SQLSERVER_DEV_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_ONPREM_SQLSERVER_DEV_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_PARENT_SQL_DW_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"LS_PARENT_SQL_DW_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_PARENT_SQL_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_PARENT_SQL_SERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
+		},
+		"LS_PARENT_SQL_SERVER_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_PARENT_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "sa"
 		},
 		"LS_SqlServer_properties_typeProperties_server": {
 			"value": "LAPTOP-ROHAN\\SQLEXPRESS"
@@ -44,9 +128,6 @@
 		"LS_SqlServer_properties_typeProperties_userName": {
 			"value": "sa"
 		},
-		"LSadlsgen2_properties_typeProperties_url": {
-			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
-		},
 		"LS_SqlServerTableLKUP_properties_typeProperties_server": {
 			"value": "LAPTOP-TIN3V33H\\SQLEXPRESS"
 		},
@@ -55,6 +136,9 @@
 		},
 		"LS_SqlServerTableLKUP_properties_typeProperties_userName": {
 			"value": "sa"
+		},
+		"LSadlsgen2_properties_typeProperties_url": {
+			"value": "https://adlsgen2nigama.dfs.core.windows.net/"
 		}
 	}
 }
